@@ -1,0 +1,34 @@
+.book-info{
+    text-align: center;
+    margin:100px auto !important;
+}
+
+.book-info img{
+    width:300px;
+    height: auto;
+    margin: 50px 0;
+}
+
+.book-info h4{
+    margin-top:60px
+}
+
+.book-info p{
+    padding: 0 30%
+}
+
+.book-info .btn{
+    margin:5px auto;
+    background:#000;
+    border-radius: 20px;
+    font-size: 22px;
+    border:solid 3px #000 !important;
+    transition: 0.4s;
+    color:#fff;
+    margin: 0 30px
+}
+
+.book-info .btn:hover{
+    background:#fff !important;
+    color:#000 !important;
+}

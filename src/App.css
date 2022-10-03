@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .book-item p{
+    font-size: 14px !important;
+  }
+
+  .genre-layout{
+    border:none !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #header-text h2{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar{
+    background:#fff;
+    z-index: 100 !important;
+  }
+
+  header span{
+    color:#000 !important;
+  }
+
+  .nav-link{
+    color:#000 !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 20px !important;
+    border-bottom: solid 2px rgb(181, 181, 181);
+  }
+
+  .navbar-toggler-icon{
+    width:50px !important;
+    height:60px !important;
+  }
+
+  .book-quantity{
+    right:auto !important
+  }
+
+  #header-text{
+    display: none;
+  }
+
+  #mobile-text{
+    display: block;
+    text-align: center;
+    
+  }
+  
+  #genre-buttons button{
+    margin: 20px 20px !important;
+  }
+
+  .book-item #text-hidden{
+    color:#000 !important;
+    min-height: auto !important;
+    font-size: 18px !important;
+  }
+
+  .book-item img{
+    margin-bottom: 50px !important;
+    transform: translate(0) !important;
+  }
+
+  footer button{
+    margin: auto;
+  }
+
+  .footer-contacts{
+    text-align: center !important;
+    margin-bottom: 50px;
+  }
+
+  footer .flaticon-credits{
+    text-align: center !important;
+  }
+
+  .book-item-large{
+    text-align: center;
+  }
+
+  .book-item-large h4{
+    margin-top: 50px;
+  }
+
+  .book-item-large p{
+    padding: 0 50px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  header span{
+    font-size: 40px !important;
+  }
+
+  #mobile-text{
+    top:40%;
+  }
+
+  #mobile-text h2{
+    font-size: 23px !important;
+  }
+
+  #mobile-text .btn{
+    padding: 5px 10px !important;
+    font-size: 20px;
+  }
+
+  .book-info p{
+    padding: 10px
+  }
+
+  .book-info .btn{
+    margin: 30px
+  }
+
+}
+

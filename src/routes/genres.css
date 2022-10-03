@@ -1,0 +1,50 @@
+.genre-box{
+    text-align: center;
+    border:solid 3px #000;
+    border-radius: 20px;
+    padding:40px 20px;
+    min-height: 410px; 
+    background:#fff;
+    transition: 0.4s;
+}
+
+.genre-box h3{
+    margin-bottom:40px
+}
+
+.genre-box p{
+    margin: 40px 0
+}
+
+.genre-box a{
+    margin:5px auto;
+    background:#000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border:solid 3px #000 !important;
+    transition: 0.4s;
+    color:#fff;
+    text-decoration: none;
+}
+
+.genre-box:hover{
+    transform: scale(1.1);
+}
+
+.genre-box a:hover{
+    background:#fff !important;
+    color:#000 !important
+}
+
+.genre-layout{
+    padding: 10px
+}
+
+.genre-layout:nth-child(1), .genre-layout:nth-child(3){
+    border-right:solid 1px rgb(158, 158, 158)
+}
+
+.genre-layout:nth-child(1), .genre-layout:nth-child(2){
+    border-bottom:solid 1px rgb(158, 158, 158)
+}

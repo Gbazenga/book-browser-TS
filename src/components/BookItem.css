@@ -1,0 +1,76 @@
+.book-item{
+    text-align: center !important;
+    transition:0.3s;
+}
+
+.book-item:hover{
+    transform:scale(1.2)
+}
+
+.book-item:hover #text-hidden{
+    color:#000;
+}
+
+.book-item:hover img{
+    opacity: 0;
+}
+
+.book-item-box{
+    border:solid 5px #b1b1b1;
+    margin:20px 10px;
+    border-radius: 20px;
+    background:#fff;
+    padding: 20px 0;
+    min-height: 620px !important;
+}
+
+.book-item img{
+    width:auto;
+    height: 300px;
+    display: block;
+    margin:auto;
+    margin-bottom:-260px;
+    opacity:100%;
+    transition:0.3s;
+    transform: translate(0, -110%);
+}
+
+.book-item .btn{
+    margin:5px auto;
+    background:#000;
+    border-radius: 20px;
+    font-size: 22px;
+    border:solid 3px #000 !important;
+    transition: 0.4s;
+    color:#fff;
+}
+
+.book-item .btn:hover{
+    background:#fff !important;
+    color:#000 !important;
+}
+
+.book-item h4{
+    font-size: 20px;
+}
+
+.book-item p{
+    font-size: 15px;
+}
+
+.book-item #text-hidden{
+    color:transparent;
+    padding:50px 25px;
+    min-height: 350px;
+    transition:0.3s;
+    z-index: 10;
+    position: relative;
+}
+
+.wishlistBtn{
+    display:none !important;
+}
+.book-item .active{
+    display:block !important;
+}
+

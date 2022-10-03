@@ -1,0 +1,44 @@
+.book-item-large{
+    margin:50px auto !important;
+}
+
+.book-item-large img{
+    width:auto;
+    height: 300px;
+}
+
+.book-item-large .book-text{
+    margin:auto;
+}
+
+.book-image{
+    text-align: center;
+}
+
+#internal-title{
+    text-align: center;
+    margin: 100px 0 !important;
+}
+
+.book-item-large .btn{
+    margin:5px auto;
+    background:#000;
+    border-radius: 20px;
+    font-size: 22px;
+    border:solid 3px #000 !important;
+    transition: 0.4s;
+    color:#fff;
+}
+
+.book-item-large .btn:hover{
+    background:#fff !important;
+    color:#000 !important;
+}
+
+.book-item-large .book-item-box {
+    min-height: auto !important;
+}
+
+.book-item-large hr{
+    margin-top:50px;
+}

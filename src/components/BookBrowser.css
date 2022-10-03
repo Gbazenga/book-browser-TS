@@ -1,0 +1,28 @@
+#browser{
+    min-height: 115vh;
+    font-family: 'Average Sans', sans-serif;
+    padding: 0 0 80px 0
+}
+
+#genre-buttons{
+    min-height: 15vh;
+    text-align: center;
+    position: relative;
+}
+
+#genre-buttons button{
+    background:none;
+    border:3px solid #000;
+    border-radius: 15px;
+    color:#000;
+    margin: 7.5vh 25px;
+    translate: 0 -50%;
+    font-size: 20px;
+    min-width:120px;
+    padding: 10px 30px
+}
+
+.active{
+    background:#000 !important;
+    color:#fff !important;
+}
